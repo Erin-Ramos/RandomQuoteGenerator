@@ -11,6 +11,7 @@ project 1 - A Random Quote Generator
  * `quotes` array
 ***/
 let quotes = [
+  aa
   {
     quote: '"Works of art make rules; rules do not make works of art."',
     author: 'Claude Debussy'
@@ -37,7 +38,7 @@ let quotes = [
  * `getRandomQuote` function
 ***/
 function (getRandomQuote) {
-  
+
 }
 
 
