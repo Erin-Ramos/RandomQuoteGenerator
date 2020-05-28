@@ -11,26 +11,27 @@ project 1 - A Random Quote Generator
  * `quotes` array
 ***/
 let quotes = [
-  aa
   {
     quote: '"Works of art make rules; rules do not make works of art."',
-    author: 'Claude Debussy'
+    source: 'Claude Debussy'
   };
   {
     quote: '"Always believe something wonderful is about to happen."',
-    author: 'Unknown'
+    source: 'Unknown'
   };
   {
     quote: '"Do or do not. There is no try."',
-    author: 'Yoda'
+    source: 'Yoda',
+    citation: 'Star Wars: The Empire Strikes Back'
   };
   {
     quote: '"You are never too old to set another goal or to dream a new dream."',
-    author: 'C.S. Lewis'
+    source: 'Les Brown',
+    year: 1992 
   };
   {
     quote: '"Today you are you. That is truer than true. There is no one who is youer than you!"',
-    author: 'Dr. Seuss'
+    source: 'Dr. Seuss'
   };
 ];
 
