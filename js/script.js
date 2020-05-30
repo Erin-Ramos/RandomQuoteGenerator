@@ -34,7 +34,7 @@ let quotes = [
   }
 ];
 
-let rgbPicker; 
+let rgbPicker;
 let colorPicker;
 let ranNumMax;
 let randomNumber;
@@ -83,6 +83,12 @@ function printQuote() {
   document.getElementById('quote-box').innerHTML = message;
 }
 printQuote();
+
+// auto refresh
+function autoRefresh() {
+  setInterval(printQuote, 3000); // https://www.w3schools.com/jsref/met_win_setinterval.asp
+}
+autoRefresh(3);
 
 // event listener
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
